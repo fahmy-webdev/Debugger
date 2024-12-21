@@ -1,19 +1,10 @@
-Python Debugger Project
-Introduction
-This project implements a custom Python debugger that allows users to:
+Python Debugger
+A simple Python script that implements a custom debugger with the ability to set breakpoints, watch variables, and print local variable information during the execution of a Python program. This debugger allows you to pause the execution of your code at specific points, inspect variable values, and step through the code interactively.
 
-Set breakpoints in a Python script.
-Monitor variables during execution.
 Features
-Line-by-line debugging.
-Variable watching for runtime analysis.
-Integration with Pylint for code quality and Pytest for testing.
-How to Use
-Add your script to debug (e.g., test_script.py).
-Use Debugger to set breakpoints and watch variables. Example:
-from debugger import Debugger
-
-debugger = Debugger("test_script.py")
-debugger.set_breakpoint(10)
-debugger.watch_variable("total")
-debugger.run()
+Set Breakpoints: Pause the program's execution at specific lines.
+Watch Variables: Track the value of specific variables during execution.
+Interactive Debugging: Pause execution and inspect variables when a breakpoint is hit.
+Customizable: Easily set breakpoints and watched variables to suit your needs.
+Requirements
+Python 3.x
